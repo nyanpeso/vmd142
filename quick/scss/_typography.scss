@@ -36,9 +36,9 @@ h4 {
        letter-spacing: 1px;
        font‐weight: 200;
     }
-    .home‐h1 {
+    .home-h1 {
        color: $blue;
-       font‐size: 4.5em; // 4.5x base
+       font‐size: 2.5em; // 4.5x base
        font‐weight: 200;
        margin‐top: 40px;
        margin‐bottom: 40px;
@@ -49,4 +49,12 @@ h4 {
     .lead {
        letter-spacing: 1px;
        margin‐bottom: 60px;
+}
+
+
+
+@media (min-width: 768px) {
+    .home-h1 {
+        font-size: 4.5em ; // 4.5x base font-size
+    }
 }
