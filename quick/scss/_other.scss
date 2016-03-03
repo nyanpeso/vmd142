@@ -207,3 +207,69 @@
         text-align: left;
     }
 }
+
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center; 
+    font-weight: bold;
+    color: $white;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 999999;
+    display: none;
+    background: $blue;
+    opacity: 0.5;
+	@include prefix(transform, all 0.3s, webkit moz);
+}
+.scrollToTop:hover {
+    text-decoration:none;
+    opacity: 1;
+    color: $white;
+}
+
+
+.parallax {
+    background-attachment: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-color: rgba(0,0,0,0.3);
+}
+#home {
+    background-image: url(../img/showcase-1.jpg);
+    padding: 160px 0;
+    width: 100%;
+    height: 100%;
+}
+
+#testimonials {
+    background:url(../img/showcase-3.jpg);
+    padding: 80px 0;
+}
+
+#services {
+    background:url(../img/showcase-2.jpg);
+    padding: 80px 0;
+}
+
+#facts {
+    background:url(../img/showcase-5.jpg);
+    padding: 80px 0;
+}
+
