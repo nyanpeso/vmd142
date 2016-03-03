@@ -37,6 +37,15 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+/* line 19, ../scss/_scaffolding.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: white;
+}
+
 /* line 4, ../scss/_typography.scss */
 h1,
 h2,
@@ -88,7 +97,7 @@ h4 {
 /* line 43, ../scss/_typography.scss */
 .home-h1 {
   color: #25cbf5;
-  font‐size: 2.5em;
+  font‐size: 4.5em;
   font‐weight: 200;
   margin‐top: 40px;
   margin‐bottom: 40px;
@@ -112,25 +121,25 @@ h4 {
   }
 }
 /* line 1, ../scss/_navbar.scss */
-.navbar‐default {
+.navbar-default {
   background-color: white;
-  font‐family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
 /* line 6, ../scss/_navbar.scss */
-.navbar-default .navbar‐brand {
+.navbar-default .navbar-brand {
   font-weight: 700;
   color: #333333;
-  font‐size: 1.5em;
+  font-size: 1.5em;
 }
 
 /* line 11, ../scss/_navbar.scss */
-.navbar‐default .navbar‐nav > li > a {
+.navbar-default .navbar-nav > li > a {
   color: #333333;
 }
 /* line 14, ../scss/_navbar.scss */
-.navbar‐default .navbar‐nav > li > a:hover, .navbar‐default .navbar‐nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #25cbf5;
 }
 
@@ -226,7 +235,7 @@ label {
 }
 
 /* line 15, ../scss/_other.scss */
-#cta‐2 {
+#cta-2 {
   background-color: #25cbf5;
   padding: 40px 0;
 }
@@ -237,7 +246,7 @@ label {
 }
 
 /* line 24, ../scss/_other.scss */
-#cta‐3 {
+#cta-3 {
   background-color: #333333;
   padding: 40px 0;
 }
