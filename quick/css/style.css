@@ -1,4 +1,4 @@
-/* line 8, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_mixins.scss */
+/* line 8, ../scss/_mixins.scss */
 .box {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -6,19 +6,19 @@
   border-radius: 10px;
 }
 
-/* line 13, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_mixins.scss */
+/* line 13, ../scss/_mixins.scss */
 .message, .success {
   border: 1px solid #ccc;
   padding: 10px;
   color: #333;
 }
 
-/* line 19, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_mixins.scss */
+/* line 19, ../scss/_mixins.scss */
 .success {
   border-color: green;
 }
 
-/* line 1, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_scaffolding.scss */
+/* line 1, ../scss/_scaffolding.scss */
 body {
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -27,17 +27,17 @@ body {
   background-color: white;
 }
 
-/* line 9, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_scaffolding.scss */
+/* line 9, ../scss/_scaffolding.scss */
 a {
   color: #333333;
 }
-/* line 13, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_scaffolding.scss */
+/* line 13, ../scss/_scaffolding.scss */
 a:hover, a:focus {
   color: #25cbf5;
   text-decoration: none;
 }
 
-/* line 19, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_scaffolding.scss */
+/* line 19, ../scss/_scaffolding.scss */
 body {
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -46,13 +46,13 @@ body {
   background-color: white;
 }
 
-/* line 28, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_scaffolding.scss */
+/* line 28, ../scss/_scaffolding.scss */
 html,
 body {
   height: 100%;
 }
 
-/* line 4, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 4, ../scss/_typography.scss */
 h1,
 h2,
 h3,
@@ -63,33 +63,33 @@ h4 {
   color: #333333;
 }
 
-/* line 12, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 12, ../scss/_typography.scss */
 h1,
 h2 {
   text-transform: uppercase;
 }
 
-/* line 16, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 16, ../scss/_typography.scss */
 h1 {
   font-size: 4em;
 }
 
-/* line 20, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 20, ../scss/_typography.scss */
 h2 {
   font-size: 2em;
 }
 
-/* line 24, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 24, ../scss/_typography.scss */
 h3 {
   font-size: 1.3em;
 }
 
-/* line 28, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 28, ../scss/_typography.scss */
 h4 {
   font-size: 1em;
 }
 
-/* line 33, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 33, ../scss/_typography.scss */
 .home-text {
   color: white;
   text-transform: uppercase;
@@ -100,7 +100,7 @@ h4 {
   font-weight: 200;
 }
 
-/* line 43, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 43, ../scss/_typography.scss */
 .home-h1 {
   color: #25cbf5;
   font-size: 4.5em;
@@ -109,47 +109,47 @@ h4 {
   margin-bottom: 40px;
 }
 
-/* line 51, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 51, ../scss/_typography.scss */
 .home-h1 > span {
   color: white;
 }
 
-/* line 55, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+/* line 55, ../scss/_typography.scss */
 .lead {
   letter-spacing: 1px;
   margin-bottom: 60px;
 }
 
 @media (min-width: 768px) {
-  /* line 61, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_typography.scss */
+  /* line 61, ../scss/_typography.scss */
   .home-h1 {
     font-size: 4.5em;
   }
 }
-/* line 1, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_navbar.scss */
+/* line 1, ../scss/_navbar.scss */
 .navbar-default {
   background-color: white;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
-/* line 6, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_navbar.scss */
+/* line 6, ../scss/_navbar.scss */
 .navbar-default .navbar-brand {
   font-weight: 700;
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 11, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_navbar.scss */
+/* line 11, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #333333;
 }
-/* line 14, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_navbar.scss */
+/* line 14, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #25cbf5;
 }
 
-/* line 1, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_buttons.scss */
+/* line 1, ../scss/_buttons.scss */
 .btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8em;
@@ -163,46 +163,46 @@ h4 {
   transition: all 200ms ease-in;
 }
 
-/* line 12, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_buttons.scss */
+/* line 12, ../scss/_buttons.scss */
 .btn-dark {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(0, 0, 0, 0.3);
   color: #777777;
 }
-/* line 19, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_buttons.scss */
+/* line 19, ../scss/_buttons.scss */
 .btn-dark:hover, .btn-dark:focus {
   background: #000;
   color: white;
 }
 
-/* line 25, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_buttons.scss */
+/* line 25, ../scss/_buttons.scss */
 .btn-cta {
   background-color: #25cbf5;
   color: white;
 }
-/* line 31, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_buttons.scss */
+/* line 31, ../scss/_buttons.scss */
 .btn-cta:hover, .btn-cta:focus {
   background-color: #0ab2dd;
   color: white;
 }
 
-/* line 37, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_buttons.scss */
+/* line 37, ../scss/_buttons.scss */
 .btn-cta-o {
   color: white;
   border: 1px solid white;
 }
-/* line 43, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_buttons.scss */
+/* line 43, ../scss/_buttons.scss */
 .btn-cta-o:hover, .btn-cta-o:focus {
   background-color: white;
   color: #353739;
 }
 
-/* line 3, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_forms.scss */
+/* line 3, ../scss/_forms.scss */
 .section-heading {
   margin-bottom: 40px;
 }
 
-/* line 7, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_forms.scss */
+/* line 7, ../scss/_forms.scss */
 .form-control {
   border-radius: 0;
   margin-bottom: 30px;
@@ -212,68 +212,68 @@ h4 {
   transition: all 200ms ease-in;
 }
 
-/* line 16, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_forms.scss */
+/* line 16, ../scss/_forms.scss */
 label {
   font‐weight: 200;
 }
 
-/* line 20, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_forms.scss */
+/* line 20, ../scss/_forms.scss */
 .form-control:focus {
   background: #f5f4f2;
   border-color: #777777;
 }
 
-/* line 1, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 1, ../scss/_other.scss */
 #home {
   background-color: #333333;
   padding: 40px 0;
 }
 
-/* line 6, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 6, ../scss/_other.scss */
 #cta‐1 {
   background-color: #f5f4f2;
   padding: 40px 0;
 }
 
-/* line 11, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 11, ../scss/_other.scss */
 #testimonials {
   background-color: #333333;
 }
 
-/* line 15, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 15, ../scss/_other.scss */
 #cta-2 {
   background-color: #25cbf5;
   padding: 40px 0;
 }
 
-/* line 20, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 20, ../scss/_other.scss */
 #services {
   background-color: #333333;
 }
 
-/* line 24, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 24, ../scss/_other.scss */
 #cta-3 {
   background-color: #333333;
   padding: 40px 0;
 }
 
-/* line 29, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 29, ../scss/_other.scss */
 #footer {
   background-color: #333333;
 }
 
-/* line 33, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 33, ../scss/_other.scss */
 .section-padding {
   padding-top: 60px;
   padding-bottom: 50px;
 }
 
-/* line 38, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 38, ../scss/_other.scss */
 .section-heading {
   margin-bottom: 40px;
 }
 
-/* line 45, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 45, ../scss/_other.scss */
 .color-reverse,
 .color-reverse h2,
 .color-reverse h3,
@@ -281,13 +281,13 @@ label {
   color: white;
 }
 
-/* line 50, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 50, ../scss/_other.scss */
 .color-reverse .icon:before,
 .color-reverse .icon:after {
   border-bottom-color: white;
 }
 
-/* line 54, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 54, ../scss/_other.scss */
 .icon {
   display: inline‐block;
   font-size: 1.3em;
@@ -298,7 +298,7 @@ label {
   color: #25cbf5;
 }
 
-/* line 65, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 65, ../scss/_other.scss */
 .icon:before,
 .icon:after {
   display: inline‐block;
@@ -309,28 +309,28 @@ label {
   width: 50px;
 }
 
-/* line 74, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 74, ../scss/_other.scss */
 .icon:before {
   left: 0;
 }
 
-/* line 78, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 78, ../scss/_other.scss */
 .icon:after {
   right: 0;
 }
 
-/* line 82, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 82, ../scss/_other.scss */
 .icon-bg {
   color: white;
 }
 
-/* line 87, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 87, ../scss/_other.scss */
 .icon-bg:before,
 .icon-bg:after {
   border-bottom-color: white;
 }
 
-/* line 91, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 91, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -340,12 +340,12 @@ label {
   background-color: #f5f4f2;
 }
 
-/* line 101, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 101, ../scss/_other.scss */
 .services-col {
   color: #25cbf5;
 }
 
-/* line 105, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 105, ../scss/_other.scss */
 .services-col h3 {
   color: #25cbf5;
   margin-top: 0;
@@ -354,7 +354,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 113, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 113, ../scss/_other.scss */
 .services-col p {
   color: #777777;
   letter-spacing: 1px;
@@ -362,7 +362,7 @@ label {
   line-height: 2;
 }
 
-/* line 120, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 120, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -374,12 +374,12 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 131, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 131, ../scss/_other.scss */
 .contact-hours .fa {
   color: #25cbf5;
 }
 
-/* line 135, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 135, ../scss/_other.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -390,25 +390,25 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 145, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 145, ../scss/_other.scss */
 .author {
   color: #25cbf5;
   font-size: 1.1em;
 }
 
-/* line 152, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 152, ../scss/_other.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 158, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 158, ../scss/_other.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 161, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 161, ../scss/_other.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -417,7 +417,7 @@ label {
   top: 0;
 }
 
-/* line 168, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 168, ../scss/_other.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -429,22 +429,22 @@ label {
   transition: opacity 250ms linear;
 }
 
-/* line 180, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 180, ../scss/_other.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 183, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 183, ../scss/_other.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 187, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 187, ../scss/_other.scss */
 .about-col, .team-col, .services-col, .portfolio-col, .facts-col, .blog-col {
   margin-bottom: 40px;
 }
 
-/* line 191, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 191, ../scss/_other.scss */
 .blog-col span {
   color: #777777;
   font-size: 0.9em;
@@ -452,19 +452,19 @@ label {
   margin-bottom: 20px;
 }
 
-/* line 199, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 199, ../scss/_other.scss */
 .services-col {
   color: #25cbf5;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  /* line 206, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+  /* line 206, ../scss/_other.scss */
   .services-col {
     text-align: left;
   }
 }
-/* line 211, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 211, ../scss/_other.scss */
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -486,14 +486,14 @@ label {
   transform: all 0.3s;
 }
 
-/* line 229, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 229, ../scss/_other.scss */
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
 }
 
-/* line 236, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 236, ../scss/_other.scss */
 .parallax {
   background-attachment: 0 0;
   background-repeat: no-repeat;
@@ -503,7 +503,7 @@ label {
   background-attachment: fixed;
 }
 
-/* line 244, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 244, ../scss/_other.scss */
 .parallax-overlay {
   position: absolute;
   left: 0;
@@ -515,7 +515,7 @@ label {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 254, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 254, ../scss/_other.scss */
 #home {
   background-image: url(../img/showcase-1.jpg);
   padding: 160px 0;
@@ -523,20 +523,25 @@ label {
   height: 100%;
 }
 
-/* line 261, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 261, ../scss/_other.scss */
 #testimonials {
   background: url(../img/showcase-3.jpg);
   padding: 80px 0;
 }
 
-/* line 266, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 266, ../scss/_other.scss */
 #services {
   background: url(../img/showcase-2.jpg);
   padding: 80px 0;
 }
 
-/* line 271, /Users/tomokosugiyama/Documents/School/vmd142/vmd142/quick/scss/_other.scss */
+/* line 271, ../scss/_other.scss */
 #facts {
   background: url(../img/showcase-5.jpg);
   padding: 80px 0;
+}
+
+/* line 276, ../scss/_other.scss */
+.main-flex-slider {
+  overflow: hidden;
 }
