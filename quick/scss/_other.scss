@@ -95,6 +95,8 @@
     color: $gray;
     border-radius: 50%;
     background-color: $gray-lighter;
+    transition: 0.7s ease-in-out; // use prefix mixin	
+
    
 }
 
@@ -126,6 +128,8 @@
     background-color: $blue;
     border-radius: 35px;
     margin-bottom: 10px;
+    transition: 0.7s ease-in-out; // use prefix mixin	
+
 }
 
 .contact-hours .fa {
@@ -276,5 +280,19 @@
 .main-flex-slider {
     overflow: hidden;
 }
+
+
+.about-col:hover .fa {
+background-color: $blue;
+color: $white;
+transform: rotateY(360deg); // use prefix mixin  
+}
+
+.services-col:hover .fa {
+background-color: $blue;
+color: $white;
+transform: rotateY(360deg); // use prefix mixin  
+}
+
 
 
